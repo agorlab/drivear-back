@@ -117,7 +117,7 @@ El repartidor también paga una **mensualidad**, que depende de la **cantidad de
 | Pedido (billetera virtual) | Cliente | Negocio |
 | Pedido (efectivo) | Cliente | Repartidor → Negocio (rendición) |
 | Mensualidad por plan | Negocio | Drivear |
-| Mensualidad por envíos | Repartidor | Drivear |
+| Mensualidad por envíos | Drivear | Repartidor |
 
 ---
 
