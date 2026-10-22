@@ -1,14 +1,12 @@
-# Drivear
+# Willy
 
 > Plataforma de delivery y cadetería para negocios, con seguro incluido y pagos en efectivo o billetera virtual.
 
 ---
 
-## ¿Qué es Drivear?
+## ¿Qué es Willy?
 
-Drivear es un servicio que conecta **negocios** con **repartidores** (cadetes) para entregar pedidos a los clientes finales. El negocio contrata un plan mensual que incluye el servicio de cadetería y un seguro, sin tener que armar ni gestionar su propio equipo de delivery.
-
-> *Drivear es un nombre provisorio.*
+Willy es un servicio que conecta **negocios** con **repartidores** (cadetes) para entregar pedidos a los clientes finales. El negocio contrata un plan mensual que incluye el servicio de cadetería y un seguro, sin tener que armar ni gestionar su propio equipo de delivery.
 
 ---
 
@@ -19,14 +17,14 @@ Drivear es un servicio que conecta **negocios** con **repartidores** (cadetes) p
 | **Negocio** | Contrata el servicio, carga pedidos y recibe el dinero de sus ventas. |
 | **Repartidor** | Retira el pedido en el negocio y lo entrega al cliente. |
 | **Cliente final** | Hace el pedido y paga en efectivo o con billetera virtual. |
-| **Drivear** | Plataforma que intermedia, asegura los envíos y cobra las mensualidades. |
+| **Willy** | Plataforma que intermedia, asegura los envíos y cobra las mensualidades. |
 
 ---
 
 ## Flujo general de un pedido
 
 1. El cliente hace un pedido al negocio y elige su método de pago.
-2. El negocio genera el envío en Drivear.
+2. El negocio genera el envío en Willy.
 3. Un repartidor acepta el envío y retira el pedido.
 4. El repartidor entrega el pedido al cliente.
 5. Se liquida el dinero según el método de pago (ver siguiente sección).
@@ -50,7 +48,7 @@ El cliente paga al repartidor en la puerta.
 - El repartidor **cobra el monto del pedido** al cliente.
 - Ese dinero **pertenece al negocio**, por lo que el repartidor queda con una **deuda hacia el negocio** por el monto cobrado.
 - El repartidor debe rendir (entregar) ese dinero al negocio.
-- Drivear registra cada pedido en efectivo para llevar el control de lo que cada repartidor debe.
+- Willy registra cada pedido en efectivo para llevar el control de lo que cada repartidor debe.
 
 ```
 Pago en efectivo:   Cliente ──$──▶ Repartidor ──(rinde)──▶ Negocio
@@ -69,7 +67,7 @@ Pago con billetera: Cliente ─────────────────�
 
 ## Seguro
 
-Drivear cuenta con un **seguro** que cubre la operación de los envíos. Está **incluido en la mensualidad del negocio**, por lo que no hay que contratarlo por separado.
+Willy cuenta con un **seguro** que cubre la operación de los envíos. Está **incluido en la mensualidad del negocio**, por lo que no hay que contratarlo por separado.
 
 > Las coberturas exactas (accidentes del repartidor, daños o pérdida de mercadería, terceros, etc.) están **por definir** con la aseguradora.
 
@@ -77,7 +75,7 @@ Drivear cuenta con un **seguro** que cubre la operación de los envíos. Está *
 
 ## Modelo de negocio
 
-Drivear se financia con **mensualidades**, tanto de los negocios como de los repartidores.
+Willy se financia con **mensualidades**, tanto de los negocios como de los repartidores.
 
 ### Para negocios
 
@@ -116,8 +114,8 @@ El repartidor también paga una **mensualidad**, que depende de la **cantidad de
 |----------|------------|--------------|
 | Pedido (billetera virtual) | Cliente | Negocio |
 | Pedido (efectivo) | Cliente | Repartidor → Negocio (rendición) |
-| Mensualidad por plan | Negocio | Drivear |
-| Mensualidad por envíos | Drivear | Repartidor |
+| Mensualidad por plan | Negocio | Willy |
+| Mensualidad por envíos | Willy | Repartidor |
 
 ---
 
@@ -135,7 +133,7 @@ El repartidor también paga una **mensualidad**, que depende de la **cantidad de
 - Registro de cobros en efectivo y deuda con cada negocio
 - Historial de envíos y mensualidad según rango
 
-**Plataforma (Drivear)**
+**Plataforma (Willy)**
 - Gestión de planes y facturación mensual
 - Integración con billeteras virtuales
 - Registro y conciliación de pagos en efectivo
@@ -145,7 +143,6 @@ El repartidor también paga una **mensualidad**, que depende de la **cantidad de
 
 ## Puntos a definir
 
-- [ ] Nombre definitivo del servicio
 - [ ] Cantidad de envíos y precios de cada plan de negocios
 - [ ] Rangos y precios de la mensualidad de repartidores
 - [ ] Qué pasa si un negocio supera el límite de envíos de su plan (¿bloqueo, cobro extra, upgrade automático?)
